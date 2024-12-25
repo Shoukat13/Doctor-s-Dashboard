@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Three columns layout */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-lab {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

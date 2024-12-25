@@ -1,0 +1,59 @@
+.patient-list {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Stretch to fill the column */
+}
+
+.patient-list__header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.patient-list__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.patient-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+.patient_item--active {
+  font-weight: bold;
+  background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+  background: #D8FCF7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.patient-item:hover {
+  background-color: #f9f9f9;
+}
+
+.patient-item__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.patient-item__details {
+  flex-grow: 1;
+}
+
+.patient-item__name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.patient-item__info {
+  font-size: 14px;
+  color: #707070;
+}

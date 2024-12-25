@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #C8CCD414;
+  border-radius: 20%;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 20px;
+}
+.menu__icon {
+  margin-right: 8px; /* Adjust the value as needed */
+}
+
+.menu__item {
+  font-size: 16px;
+  color: #072635;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+
+.menu__item--active {
+  width: 122px;
+  height: 41px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #01F0D0; /* Set background color */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center -20px; /* Move background upwards */
+  border-radius: 41px;
+  opacity: 1;
+}
+
+.navbar__doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.doctor-info__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.doctor-info__name {
+  font-size: 14px;
+  color:#072635
+}
+.doctor-item__details {
+  flex-grow: 0.5;
+}
+.doctor-item__info {
+  font-size: 12px;
+  color: #707070;
+}
+.nav-settings {
+  height: 35px;
+  padding: 5px;
+
+}

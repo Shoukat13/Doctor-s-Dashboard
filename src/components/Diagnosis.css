@@ -1,0 +1,116 @@
+.diagnosis {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr; /* Blood pressure, metrics, history */
+  gap: 1rem;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.diagnosis__metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three metrics in a row */
+  gap: 1rem;
+}
+
+.resp-metric {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 228px;
+  height: 242px;
+  background: #E0F3FA 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1
+}
+.temp-metric {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 228px;
+  height: 242px;
+  background: #FFE6E9 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+.heart-metric {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 228px;
+  height: 242px;
+  background: #FFE6F1 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.diagnose-image{
+  top: 549px;
+  left: 290px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.diagnose-name{
+  top: 699px;
+  left: 453px;
+  width: 125px;
+  height: 22px;
+  font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal medium 16px/22px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.diagnose-value{
+  top: 682px;
+  left: 453px;
+  width: 109px;
+  height: 41px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal 800 30px/41px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+.diagnose-status{
+  top: 740px;
+  left: 453px;
+  width: auto;
+  height: 19px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  opacity: 1;
+}
+
+
+.diagnosis__history {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #F4F0FE 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.history__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.diagnosis__list {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
